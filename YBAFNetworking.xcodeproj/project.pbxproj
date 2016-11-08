@@ -15,6 +15,12 @@
 		5A054BAA1DD19526005282C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A054BA81DD19526005282C5 /* LaunchScreen.storyboard */; };
 		5A054BB51DD19526005282C5 /* YBAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A054BB41DD19526005282C5 /* YBAFNetworkingTests.m */; };
 		5A054BC01DD19526005282C5 /* YBAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A054BBF1DD19526005282C5 /* YBAFNetworkingUITests.m */; };
+		5A374B0E1DD1A46D00DADD3B /* YBAFNCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A374B091DD1A46D00DADD3B /* YBAFNCacheTool.m */; };
+		5A374B0F1DD1A46D00DADD3B /* YBAFNCacheHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A374B0B1DD1A46D00DADD3B /* YBAFNCacheHttpTool.m */; };
+		5A374B101DD1A46D00DADD3B /* YBAFNCacheMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A374B0D1DD1A46D00DADD3B /* YBAFNCacheMD5.m */; };
+		AAF3D46DA35CCB3092D7B659 /* libPods-YBAFNetworkingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFF4ACE400D0A900F98F48B /* libPods-YBAFNetworkingUITests.a */; };
+		DBE29C3949CB97838F02CC20 /* libPods-YBAFNetworkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C2EEF83049E02153A42EFD /* libPods-YBAFNetworkingTests.a */; };
+		EA38475AE6A656DB7C73AA36 /* libPods-YBAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71252334795C0A46DE3B1E99 /* libPods-YBAFNetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19C2EEF83049E02153A42EFD /* libPods-YBAFNetworkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YBAFNetworkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFF4ACE400D0A900F98F48B /* libPods-YBAFNetworkingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YBAFNetworkingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0E8CE538A6DE30727CC724 /* Pods-YBAFNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAFNetworkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YBAFNetworkingTests/Pods-YBAFNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E48BFFA891604C62C4C9E42 /* Pods-YBAFNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAFNetworkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YBAFNetworkingTests/Pods-YBAFNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A054B971DD19526005282C5 /* YBAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A054B9B1DD19526005282C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A054B9D1DD19526005282C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		5A054BBB1DD19526005282C5 /* YBAFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBAFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A054BBF1DD19526005282C5 /* YBAFNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAFNetworkingUITests.m; sourceTree = "<group>"; };
 		5A054BC11DD19526005282C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A374B071DD1A46D00DADD3B /* YBAFNCacheConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAFNCacheConstant.h; sourceTree = "<group>"; };
+		5A374B081DD1A46D00DADD3B /* YBAFNCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAFNCacheTool.h; sourceTree = "<group>"; };
+		5A374B091DD1A46D00DADD3B /* YBAFNCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAFNCacheTool.m; sourceTree = "<group>"; };
+		5A374B0A1DD1A46D00DADD3B /* YBAFNCacheHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAFNCacheHttpTool.h; sourceTree = "<group>"; };
+		5A374B0B1DD1A46D00DADD3B /* YBAFNCacheHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAFNCacheHttpTool.m; sourceTree = "<group>"; };
+		5A374B0C1DD1A46D00DADD3B /* YBAFNCacheMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAFNCacheMD5.h; sourceTree = "<group>"; };
+		5A374B0D1DD1A46D00DADD3B /* YBAFNCacheMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAFNCacheMD5.m; sourceTree = "<group>"; };
+		6518131B55D3D6C5666B2586 /* Pods-YBAFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAFNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YBAFNetworking/Pods-YBAFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF9F862D9A7D2A670951556 /* Pods-YBAFNetworkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAFNetworkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YBAFNetworkingUITests/Pods-YBAFNetworkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71252334795C0A46DE3B1E99 /* libPods-YBAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YBAFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B009F62D86452ACE4040124D /* Pods-YBAFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAFNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-YBAFNetworking/Pods-YBAFNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		DA3DB38028DD91AF593A132E /* Pods-YBAFNetworkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAFNetworkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YBAFNetworkingUITests/Pods-YBAFNetworkingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA38475AE6A656DB7C73AA36 /* libPods-YBAFNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE29C3949CB97838F02CC20 /* libPods-YBAFNetworkingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF3D46DA35CCB3092D7B659 /* libPods-YBAFNetworkingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,8 @@
 				5A054BB31DD19526005282C5 /* YBAFNetworkingTests */,
 				5A054BBE1DD19526005282C5 /* YBAFNetworkingUITests */,
 				5A054B981DD19526005282C5 /* Products */,
+				B9A15EFBD1EA990AA44317C3 /* Pods */,
+				FA16C20AF117156D5FFFC604 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,7 @@
 		5A054B991DD19526005282C5 /* YBAFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				5A374B061DD1A46D00DADD3B /* YBAFNCache */,
 				5A054B9D1DD19526005282C5 /* AppDelegate.h */,
 				5A054B9E1DD19526005282C5 /* AppDelegate.m */,
 				5A054BA01DD19526005282C5 /* ViewController.h */,
@@ -140,6 +168,43 @@
 			path = YBAFNetworkingUITests;
 			sourceTree = "<group>";
 		};
+		5A374B061DD1A46D00DADD3B /* YBAFNCache */ = {
+			isa = PBXGroup;
+			children = (
+				5A374B071DD1A46D00DADD3B /* YBAFNCacheConstant.h */,
+				5A374B081DD1A46D00DADD3B /* YBAFNCacheTool.h */,
+				5A374B091DD1A46D00DADD3B /* YBAFNCacheTool.m */,
+				5A374B0A1DD1A46D00DADD3B /* YBAFNCacheHttpTool.h */,
+				5A374B0B1DD1A46D00DADD3B /* YBAFNCacheHttpTool.m */,
+				5A374B0C1DD1A46D00DADD3B /* YBAFNCacheMD5.h */,
+				5A374B0D1DD1A46D00DADD3B /* YBAFNCacheMD5.m */,
+			);
+			path = YBAFNCache;
+			sourceTree = "<group>";
+		};
+		B9A15EFBD1EA990AA44317C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6518131B55D3D6C5666B2586 /* Pods-YBAFNetworking.debug.xcconfig */,
+				B009F62D86452ACE4040124D /* Pods-YBAFNetworking.release.xcconfig */,
+				2E48BFFA891604C62C4C9E42 /* Pods-YBAFNetworkingTests.debug.xcconfig */,
+				2A0E8CE538A6DE30727CC724 /* Pods-YBAFNetworkingTests.release.xcconfig */,
+				6EF9F862D9A7D2A670951556 /* Pods-YBAFNetworkingUITests.debug.xcconfig */,
+				DA3DB38028DD91AF593A132E /* Pods-YBAFNetworkingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA16C20AF117156D5FFFC604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71252334795C0A46DE3B1E99 /* libPods-YBAFNetworking.a */,
+				19C2EEF83049E02153A42EFD /* libPods-YBAFNetworkingTests.a */,
+				1DFF4ACE400D0A900F98F48B /* libPods-YBAFNetworkingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A054BC41DD19526005282C5 /* Build configuration list for PBXNativeTarget "YBAFNetworking" */;
 			buildPhases = (
+				13BF71B3444DED0C8A068AA9 /* [CP] Check Pods Manifest.lock */,
 				5A054B931DD19526005282C5 /* Sources */,
 				5A054B941DD19526005282C5 /* Frameworks */,
 				5A054B951DD19526005282C5 /* Resources */,
+				BA70E858BD483CA6B469B93A /* [CP] Embed Pods Frameworks */,
+				2C2B730022EA60196367B3F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A054BC71DD19526005282C5 /* Build configuration list for PBXNativeTarget "YBAFNetworkingTests" */;
 			buildPhases = (
+				89770785B62A81CBC9DFAED7 /* [CP] Check Pods Manifest.lock */,
 				5A054BAC1DD19526005282C5 /* Sources */,
 				5A054BAD1DD19526005282C5 /* Frameworks */,
 				5A054BAE1DD19526005282C5 /* Resources */,
+				94B355D750721D00A863F870 /* [CP] Embed Pods Frameworks */,
+				146BA9DDFFA609B92FDA3282 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A054BCA1DD19526005282C5 /* Build configuration list for PBXNativeTarget "YBAFNetworkingUITests" */;
 			buildPhases = (
+				5F64850E1B455A4DE6547BC3 /* [CP] Check Pods Manifest.lock */,
 				5A054BB71DD19526005282C5 /* Sources */,
 				5A054BB81DD19526005282C5 /* Frameworks */,
 				5A054BB91DD19526005282C5 /* Resources */,
+				1BA21CE324BE737735A4C8F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +344,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13BF71B3444DED0C8A068AA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		146BA9DDFFA609B92FDA3282 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBAFNetworkingTests/Pods-YBAFNetworkingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BA21CE324BE737735A4C8F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBAFNetworkingUITests/Pods-YBAFNetworkingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C2B730022EA60196367B3F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBAFNetworking/Pods-YBAFNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F64850E1B455A4DE6547BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89770785B62A81CBC9DFAED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94B355D750721D00A863F870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBAFNetworkingTests/Pods-YBAFNetworkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA70E858BD483CA6B469B93A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBAFNetworking/Pods-YBAFNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A054B931DD19526005282C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A054BA21DD19526005282C5 /* ViewController.m in Sources */,
+				5A374B0E1DD1A46D00DADD3B /* YBAFNCacheTool.m in Sources */,
 				5A054B9F1DD19526005282C5 /* AppDelegate.m in Sources */,
+				5A374B101DD1A46D00DADD3B /* YBAFNCacheMD5.m in Sources */,
 				5A054B9C1DD19526005282C5 /* main.m in Sources */,
+				5A374B0F1DD1A46D00DADD3B /* YBAFNCacheHttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +622,7 @@
 		};
 		5A054BC51DD19526005282C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6518131B55D3D6C5666B2586 /* Pods-YBAFNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M8RY4V2Z6Z;
@@ -435,6 +635,7 @@
 		};
 		5A054BC61DD19526005282C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B009F62D86452ACE4040124D /* Pods-YBAFNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M8RY4V2Z6Z;
@@ -447,6 +648,7 @@
 		};
 		5A054BC81DD19526005282C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E48BFFA891604C62C4C9E42 /* Pods-YBAFNetworkingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = M8RY4V2Z6Z;
@@ -460,6 +662,7 @@
 		};
 		5A054BC91DD19526005282C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0E8CE538A6DE30727CC724 /* Pods-YBAFNetworkingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = M8RY4V2Z6Z;
@@ -473,6 +676,7 @@
 		};
 		5A054BCB1DD19526005282C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF9F862D9A7D2A670951556 /* Pods-YBAFNetworkingUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M8RY4V2Z6Z;
 				INFOPLIST_FILE = YBAFNetworkingUITests/Info.plist;
@@ -485,6 +689,7 @@
 		};
 		5A054BCC1DD19526005282C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3DB38028DD91AF593A132E /* Pods-YBAFNetworkingUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M8RY4V2Z6Z;
 				INFOPLIST_FILE = YBAFNetworkingUITests/Info.plist;
@@ -514,6 +719,7 @@
 				5A054BC61DD19526005282C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A054BC71DD19526005282C5 /* Build configuration list for PBXNativeTarget "YBAFNetworkingTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +728,7 @@
 				5A054BC91DD19526005282C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A054BCA1DD19526005282C5 /* Build configuration list for PBXNativeTarget "YBAFNetworkingUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +737,7 @@
 				5A054BCC1DD19526005282C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
